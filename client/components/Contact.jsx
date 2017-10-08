@@ -31,7 +31,7 @@ class Contact extends React.Component {
                   </div>
 
                   <div className="Contact-address content">
-                    <span className="card-content"><strong>Olszowa 27, 63-600 Kępno</strong></span>
+                    <span className="card-content"><strong>ul. Granitowa 24, 63-600 Olszowa, gm. Kępno</strong></span>
                   </div>
               </div>
 
