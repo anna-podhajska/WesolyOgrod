@@ -1,8 +1,8 @@
 import React from 'react'
 import jump from 'jump.js'
 
-
 import ContactForm from './ContactForm'
+
 
 class Footer extends React.Component {
   constructor (props) {

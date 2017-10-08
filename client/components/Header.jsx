@@ -11,13 +11,14 @@ import HeaderBody from './HeaderBody'
 
 const Header = ({isAuthenticated}) => (
 
-  <section className="hero is-primary is-fullheight">
-    <div className="hero-head">
+  <section className="hero is-primary is-fullheight Header-container">
+    {/* LOGIN - UNCOMMENT WHEN READY TO USE */}
+    {/* <div className="hero-head">
       <div className="nav Nav">
-        <div className="container">
+        <div className="container Header-navbar">
           <div className="nav-left">
             <div className="nav-item">
-              <Link exact to="/"><img className="logo" src="logo_wfl_white.png"></img></Link>
+              <Link exact to="/"><img className="logo" src="logo.svg"></img></Link>
             </div>
             </div>
             <span className="nav-toggle">
@@ -62,7 +63,7 @@ const Header = ({isAuthenticated}) => (
             </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
     <div className="hero-body">
       <div className="container has-text-centered">

@@ -1,3 +1,13 @@
+.Header-container{
+  background-image: url("background/garden-molo.jpeg");
+}
+.Header-navbar{
+  /*background-color: white;*/
+  /*opacity: 0.2;*/
+}
+.HeaderBody-logo {
+  height: 120px;
+}
 .negative {
   color: #FF6384 !important;
 }

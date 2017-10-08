@@ -1,5 +1,5 @@
 import React from 'react'
-import {Map, Marker} from 'google-maps-react';
+import {Map, Marker, InfoWindow} from 'google-maps-react';
 import {GoogleApiWrapper} from 'google-maps-react';
 
 class MapSingle extends React.Component {
@@ -11,20 +11,25 @@ class MapSingle extends React.Component {
     return (
         <div className="mapSinglecol box">
           <Map google={window.google}
-            style={{height: '95%', position: 'relative', margin: '10px'}}
+            clickableIcons={true}
+            style={{height: '95%', position: 'relative', margin: '2px'}}
             className={'mapSingle'}
             zoom={14}
-            center={{
-              lat: this.props.restaurant.lat,
-              lng: this.props.restaurant.lng
+            initialCenter={{
+              lat: 51.293036,
+              lng: 18.032185
             }}
             centerAroundCurrentLocation={false}
             >
             <Marker
-              title={this.props.restaurant.restaurant_name}
-              name={this.props.restaurant.restaurant_name}
-              position={{lat: this.props.restaurant.lat, lng: this.props.restaurant.lng}} />
-          </Map>
+              title="Wesoly Ogrod"
+              name="Wesoly Ogrod"
+              position={{
+                lat: 51.293036,
+                lng: 18.032185
+              }} />
+
+            </Map>
         </div>
     );
   }
