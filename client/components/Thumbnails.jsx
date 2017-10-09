@@ -21,7 +21,22 @@ class Thumbnails extends React.Component {
 
                   <div className="content">
                     <h3>Centrum Ogrodnicze</h3>
-                    <p>Architektura ogrodowa, kamień ogrodowy, sprzęt ogrodowy i inne. Wejdź!   </p>
+                    <p>Architektura ogrodowa, kamień, sprzęt ogrodowy i inne. Wejdź!   </p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="card column">
+                <div className="card-image">
+                  <figure className="image is-4by3">
+                    <img src="background/nursery-thuja.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <h3>Szkółka</h3>
+                    <p>Szkółka drzew i krzewów ozddobnych. Rośliny formowane. Wejdź!   </p>
                   </div>
                 </div>
               </div>
@@ -41,25 +56,11 @@ class Thumbnails extends React.Component {
                 </div>
               </div>
 
+
               <div className="card column">
                 <div className="card-image">
                   <figure className="image is-4by3">
                     <img src="background/nursery-hand.jpg" alt="Placeholder image" />
-                  </figure>
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <h3>Szkółka</h3>
-                    <p>Szkółka drzew i krzewów ozddobnych. Rośliny formowane. Wejdź!   </p>
-                  </div>
-                </div>
-              </div>
-
-
-              <div className="card column">
-                <div className="card-image">
-                  <figure className="image is-4by3">
-                    <img src="background/bridge.jpg" alt="Placeholder image" />
                   </figure>
                 </div>
                 <div className="card-content">
