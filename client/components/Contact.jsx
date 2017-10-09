@@ -14,11 +14,9 @@ class Contact extends React.Component {
               <h1 className="title">Wesoły Ogród</h1>
 
                   <div className="Contact-phones content">
-                    <span className="subtitle">Telefon</span>
-                      <p>
-                        Centrum <a href="tel:667-393-232">667-393-232</a>  <br />
-                        Ogrody-aranżacja <a href="tel:603-687-832">603-687-832</a>
-                      </p>
+                      <p>Centrum <a href="tel:667-393-232">667-393-232</a></p>
+                      <p>Ogrody-aranżacja <a href="tel:603-687-832">603-687-832</a></p>
+
                   </div>
 
                   <div className="Contact-hours content">
