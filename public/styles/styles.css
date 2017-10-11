@@ -1,36 +1,22 @@
 .Header-container{
   background-image: url("../background/camelias2.jpg");
   background-repeat: no-repeat;
-  background-position: 20% 20%;
+  background-position: 20% 50%;
 }
-.card-content {
+.card-content,
+.Contact-contact {
   min-height: 200px;
-}
-.Header-navbar{
-  /*background-color: white;*/
-  /*opacity: 0.2;*/
 }
 .HeaderBody-logo {
   width: 40%;
 }
-.HeaderBody-title{
+/*.HeaderBody-title{
   font-size: 200%;
-}
+}*/
 .Contact-title {
   padding-top: 2rem;
 }
 
-.negative {
-  color: #FF6384 !important;
-}
-.positive {
-  color: #36A2EB !important;
-}
-.headerColor {
-}
-.bounce a{
-  font-size: 250%;
-}
 .ico {
   width: 10px;
   height: 10px;
@@ -38,11 +24,7 @@
 .mHeader {
   margin-bottom: 20px;
 }
-.filterButton {
-  background-color: #f7f7f7;
-  border: 2px solid white;
-  border-radius: 10px;
-}
+
 .toggle {
   margin-bottom: 15px;
 }
@@ -61,31 +43,6 @@
 .app-body {
   margin-top: 30px;
 }
-/*single restaurant component text style*/
-.restaurantName {
-  text-align: center;
-  font-size: 200%;
-}
-.restaurantDescription,
-.AddComment-title,
-.Address-title,
-.Comments-title {
-  font-weight: bolder;
-}
-.address {
-  margin-bottom: 1rem;
-}
-.restaurantPhoto {
-  height: 400px;
-}
-.Comments-list {
-  text-align: center;
-}
-.Comment-content {
-  height: 100px;
-  width: 100%;
-  font-size: 100%;
-}
 .restaurant-name {
 }
 .ClickMe {
@@ -97,15 +54,6 @@ i.fa.fa-thumbs-up {
 }
 .fa1 {
   padding: 5px!important;
-}
-
-/*colors set:
-'#FF6384',
-'#36A2EB',
-'#FFCE56'*/
-
-.Arrow {
-  text-align: center;
 }
 
 .MapHero {
@@ -150,7 +98,7 @@ i.fa.fa-thumbs-up {
   height: 60px;
 }
 .logo-footer {
-  height: 60px;
+  height: 100px;
 }
 .red {
   color: #FF6384;

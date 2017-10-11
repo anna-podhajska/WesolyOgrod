@@ -22,10 +22,20 @@ class Contact extends React.Component {
                   </div>
 
                       <div className="has-text-centered content">
-                        <p className="subtitle">Ogrody-aranżacja <a href="tel:603-687-832">603-687-832</a></p>
-                      </div>
-                      <div className="has-text-centered content">
-                        <p className="subtitle">Centrum <a href="tel:667-393-232">667-393-232</a></p>
+                          <p className="subtitle">
+                            Aranżacja ogrodów <br/>
+                            <span className="icon">
+                              <i className="ion-ios-telephone is-large"></i>
+                            </span>
+                            <a href="tel:603-687-832">603-687-832</a>
+                          </p>
+                          <p className="subtitle">
+                            Centrum <br/>
+                            <span className="icon">
+                              <i className="ion-ios-telephone is-large"></i>
+                            </span>
+                            <a href="tel:667-393-232">667-393-232</a>
+                          </p>
                       </div>
 
 
@@ -45,6 +55,8 @@ class Contact extends React.Component {
 
               <div className="column is-half-desktop">
                   <MapSingle />
+
+
               </div>
           </div>
 

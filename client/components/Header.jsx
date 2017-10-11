@@ -65,6 +65,25 @@ const Header = ({isAuthenticated}) => (
       </div>
     </div> */}
 
+
+    <div className="hero-head">
+      <div className="nav">
+        <div className=" Header-navbar">
+          <div className="nav-left">
+            <div className="nav-item">
+              <span className="icon">
+                <i className="ion-ios-circle-filled is-large"></i>
+              </span>
+              <p className="subtitle" onClick={()=>jump(".Contact-container")}> Kontakt </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
     <div className="hero-body">
       <div className="container has-text-centered">
         <Route exact path="/" render={() => (

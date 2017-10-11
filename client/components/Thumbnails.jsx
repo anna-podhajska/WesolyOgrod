@@ -12,41 +12,61 @@ class Thumbnails extends React.Component {
 
           <div className="columns is-desktop">
 
-              <div className="column  is-half-mobile Thumbnails-card">
-                <div className="card">
+            <div className="column  is-half-mobile Thumbnails-card">
+              <div className="card">
+                <div className="card-image">
+                  <figure className="image is-4by3">
+                    <img src="background/gc-pink.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <h3 className="Thum-title">Centrum Ogrodnicze</h3>
+                    <p>Architektura ogrodowa, kamień, sprzęt ogrodowy i inne.  </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="column  is-half-mobile Thumbnails-card">
+              <div className="card">
+                <div className="card-image">
+                  <figure className="image is-4by3">
+                    <img src="background/nursery-smallPlants.jpg" alt="Placeholder image" />
+                  </figure>
+                </div>
+                <div className="card-content">
+                  <div className="content">
+                    <h3 className="Thum-title">Szkółka</h3>
+                    <p>Szkółka drzew i krzewów ozdobnych, rośliny formowane.   </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="column  is-half-mobile Thumbnails-card">
+              <div className="card">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="background/gc-pink.jpg" alt="Placeholder image" />
+                      <img src="background/landscape-planning.jpg" alt="Placeholder image" />
+                      {/* <img src="background/nursery-hand.jpg" alt="Placeholder image" /> */}
                     </figure>
                   </div>
                   <div className="card-content">
                     <div className="content">
-                      <h3 className="Thum-title">Centrum Ogrodnicze</h3>
-                      <p>Architektura ogrodowa, kamień, sprzęt ogrodowy i inne. Wejdź!   </p>
+                      <h3 className="Thum-title">Aranżacja ogrodów</h3>
+                      <p>Aranżacja terenów zielonych, nawadnianie, trawniki.  </p>
                     </div>
                   </div>
                 </div>
-              </div>
+            </div>
 
 
-              <div className="column  is-half-mobile Thumbnails-card">
-                <div className="card">
-                  <div className="card-image">
-                    <figure className="image is-4by3">
-                      <img src="background/nursery-smallPlants.jpg" alt="Placeholder image" />
-                    </figure>
-                  </div>
-                  <div className="card-content">
-                    <div className="content">
-                      <h3 className="Thum-title">Szkółka</h3>
-                      <p>Szkółka drzew i krzewów ozddobnych. Rośliny formowane. Wejdź!   </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
 
-              <div className="column  is-half-mobile Thumbnails-card">
+              {/* <div className="column  is-half-mobile Thumbnails-card">
                 <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -56,28 +76,14 @@ class Thumbnails extends React.Component {
                     <div className="card-content">
                       <div className="content">
                         <h3 className="Thum-title">Kwiaciarnia</h3>
-                        <p>Kwiaty, rośliny domowe, donice, środki ochrony rolin i nawozy. Wejdż!   </p>
+                        <p>Kwiaty, rośliny domowe, donice, środki ochrony rolin i nawozy.  </p>
                       </div>
                     </div>
                 </div>
-              </div>
+              </div> */}
 
 
-              <div className="column  is-half-mobile Thumbnails-card">
-                <div className="card">
-                    <div className="card-image">
-                      <figure className="image is-4by3">
-                        <img src="background/nursery-hand.jpg" alt="Placeholder image" />
-                      </figure>
-                    </div>
-                    <div className="card-content">
-                      <div className="content">
-                        <h3 className="Thum-title">Aranżacja ogrodów</h3>
-                        <p>Aranżacja terenów zielonych, nawadnianie, trawniki. Wejdź!   </p>
-                      </div>
-                    </div>
-                  </div>
-              </div>
+
 
           </div>
 
