@@ -33,7 +33,7 @@ class Thumbnails extends React.Component {
                 <div className="card">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="background/nursery-thuja.jpg" alt="Placeholder image" />
+                      <img src="background/nursery-smallPlants.jpg" alt="Placeholder image" />
                     </figure>
                   </div>
                   <div className="card-content">
