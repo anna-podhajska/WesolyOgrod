@@ -6,46 +6,47 @@ class Thumbnails extends React.Component {
   render() {
 
     return (
-      <div className="Thumbnails-container">
 
 
-          {/* <div className="columns">
+        <div className="">
 
-              <div className="column">
+          <div className="columns is-desktop">
+
+              <div className="column  is-half-mobile Thumbnails-card">
                 <div className="card">
-                <div className="card-image">
-                  <figure className="image is-4by3">
-                    <img src="background/gc-pink.jpg" alt="Placeholder image" />
-                  </figure>
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <h3>Centrum Ogrodnicze</h3>
-                    <p>Architektura ogrodowa, kamień, sprzęt ogrodowy i inne. Wejdź!   </p>
+                  <div className="card-image">
+                    <figure className="image is-4by3">
+                      <img src="background/gc-pink.jpg" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div className="card-content">
+                    <div className="content">
+                      <h3>Centrum Ogrodnicze</h3>
+                      <p>Architektura ogrodowa, kamień, sprzęt ogrodowy i inne. Wejdź!   </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              </div>
 
 
-              <div className="column">
+              <div className="column  is-half-mobile Thumbnails-card">
                 <div className="card">
-                <div className="card-image">
-                  <figure className="image is-4by3">
-                    <img src="background/nursery-thuja.jpg" alt="Placeholder image" />
-                  </figure>
-                </div>
-                <div className="card-content">
-                  <div className="content">
-                    <h3>Szkółka</h3>
-                    <p>Szkółka drzew i krzewów ozddobnych. Rośliny formowane. Wejdź!   </p>
+                  <div className="card-image">
+                    <figure className="image is-4by3">
+                      <img src="background/nursery-thuja.jpg" alt="Placeholder image" />
+                    </figure>
+                  </div>
+                  <div className="card-content">
+                    <div className="content">
+                      <h3>Szkółka</h3>
+                      <p>Szkółka drzew i krzewów ozddobnych. Rośliny formowane. Wejdź!   </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              </div>
 
 
-              <div className="column">
+              <div className="column  is-half-mobile Thumbnails-card">
                 <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -62,7 +63,7 @@ class Thumbnails extends React.Component {
               </div>
 
 
-              <div className="column">
+              <div className="column  is-half-mobile Thumbnails-card">
                 <div className="card">
                     <div className="card-image">
                       <figure className="image is-4by3">
@@ -78,28 +79,13 @@ class Thumbnails extends React.Component {
                   </div>
               </div>
 
-          </div> */}
-
-
-
-          <div className="columns">
-
-            <div className="columns">
-              <div className="">
-                <figure className="image is-4by3">
-                  <img src="background/kwiaciarnia-girl.jpg" alt="Placeholder image" />
-                </figure>
-              </div>
-                <div className="content">
-                  <h3>Kwiaciarnia</h3>
-                  <p>Kwiaty, rośliny domowe, donice, środki ochrony rolin i nawozy. Wejdż!   </p>
-              </div>
-            </div>
-
           </div>
 
-
       </div>
+
+
+
+
     )
   }
 }
