@@ -1,7 +1,7 @@
 .Header-container{
-  background-image: url("../background/garden-molo.jpeg");
+  background-image: url("../background/bridge.jpg");
   background-repeat: no-repeat;
-  background-position: -20% 0%;
+  background-position: center;
 }
 .Header-navbar{
   /*background-color: white;*/
