@@ -9,12 +9,12 @@ class MapSingle extends React.Component {
   }
   render() {
     return (
-        <div className="mapSinglecol box">
+        <div className="mapSinglecol">
           <Map google={window.google}
             clickableIcons={true}
-            style={{height: '95%', position: 'relative', margin: '2px'}}
+            style={{height: '100%', position: 'relative', margin: '2px'}}
             className={'mapSingle'}
-            zoom={14}
+            zoom={12}
             initialCenter={{
               lat: 51.293036,
               lng: 18.032185

@@ -1,13 +1,23 @@
-.Header-container {
-
+.Header-container{
+  background-image: url("../background/camelias2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
+.card-content {
+  min-height: 200px;
+}
 .Header-navbar{
   /*background-color: white;*/
   /*opacity: 0.2;*/
 }
 .HeaderBody-logo {
-  height: 120px;
+  width: 20%;
+}
+.HeaderBody-title{
+  font-size: 200%;
+}
+.Contact-title {
+  padding-top: 2rem;
 }
 .negative {
   color: #FF6384 !important;
@@ -32,32 +42,13 @@
 .toggle {
   margin-bottom: 15px;
 }
-.filterSelected {
-  background-color: #777b82;
-  font-size: 100%;
-  color: white;
-  border-radius: 10px;
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
-  animation-name: example;
-  animation-duration: 3s;
-}
-@-webkit-keyframes example {
-  0%   {background-color:#5bcacc; left:0px; top:0px;}
-  50%  {background-color:#6c8e8e; left:200px; top:0px;}
-  100%  {background-color:#777b82; left:200px; top:200px;}
-}
+
 .map {
   position: unset!important;
 }
-.mapcol {
-  height: 400px;
-}
+
 .mapSingle {
   position: unset!important;
-}
-.mapSinglecol {
-  height: 250px;
 }
 
 .NavItem {
