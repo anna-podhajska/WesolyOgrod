@@ -23,21 +23,24 @@ class Footer extends React.Component {
     return (
       <div className="footer has-text-centered columns">
         <div className="column is-one-third is-offset-one-third">
-        <span>
+        <a className="" onClick={()=>jump(".hero-head")}>
           <p>
             <img className="logo-footer" src="logo.svg"></img>
           </p>
           <p>
             Wesoły Ogród
           </p>
-        </span>
-        {
+        </a>
+
+        {/* uncomment if u wanna activate contact form, just remember to make it mobile-ready */}
+        {/* {
           this.state.contactFormVisible ?
           <ContactForm toggleContactForm={this.toggleContactForm} /> :
             <a onClick={this.toggleContactForm}>
               Napisz do nas
             </a>
-          }
+          } */}
+
         </div>
         </div>
       )

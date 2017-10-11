@@ -1,18 +1,29 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+a {
+  color: #848E5A;
+}
 .Header-container{
-  background-image: url("../background/camelias2.jpg");
+  background-image: url("../background/wisnia.jpeg");
   background-repeat: no-repeat;
   background-position: 20% 50%;
 }
-.card-content,
+.Contact-container{
+  padding-top: 2em;
+}
 .Contact-contact {
   min-height: 200px;
+}
+.Contact-map {
+  padding-top: 4em;
 }
 .HeaderBody-logo {
   width: 40%;
 }
-/*.HeaderBody-title{
-  font-size: 200%;
-}*/
+.ion-ios-telephone {
+  height: 200%;
+}
 .Contact-title {
   padding-top: 2rem;
 }

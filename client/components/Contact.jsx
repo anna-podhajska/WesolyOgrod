@@ -7,8 +7,8 @@ class Contact extends React.Component {
   render() {
 
     return (
-      <div className="Contact-container has-text-centered">
-
+      <div className="Contact-container has-text-centered is-fullheight">
+          <h1 className="title is-fullwidth">Kontakt</h1>
           <div className="columns is-desktop">
 
             <div className="Contact-contact column is-half-desktop has-text-centered">
@@ -21,20 +21,29 @@ class Contact extends React.Component {
                         </div>
                   </div>
 
-                      <div className="has-text-centered content">
+                      <div className="content">
+
                           <p className="subtitle">
                             Aranżacja ogrodów <br/>
-                            <span className="icon">
-                              <i className="ion-ios-telephone is-large"></i>
-                            </span>
-                            <a href="tel:603-687-832">603-687-832</a>
+
+                            <a href="tel:603-687-832">
+                              <span className="icon is-medium">
+                                <i className="fa fa-phone"></i>
+                              </span>
+                              603-687-832
+                            </a>
                           </p>
+
+
                           <p className="subtitle">
                             Centrum <br/>
-                            <span className="icon">
-                              <i className="ion-ios-telephone is-large"></i>
-                            </span>
-                            <a href="tel:667-393-232">667-393-232</a>
+
+                            <a href="tel:667-393-232">
+                              <span className="icon is-medium">
+                                <i className="fa fa-phone"></i>
+                              </span>
+                              667-393-232
+                            </a>
                           </p>
                       </div>
 
@@ -53,7 +62,7 @@ class Contact extends React.Component {
               </div>
 
 
-              <div className="column is-half-desktop">
+              <div className="column is-half-desktop Contact-map ">
                   <MapSingle />
 
 
