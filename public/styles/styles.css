@@ -11,7 +11,7 @@
   /*opacity: 0.2;*/
 }
 .HeaderBody-logo {
-  width: 20%;
+  width: 40%;
 }
 .HeaderBody-title{
   font-size: 200%;
@@ -19,6 +19,7 @@
 .Contact-title {
   padding-top: 2rem;
 }
+
 .negative {
   color: #FF6384 !important;
 }
@@ -26,6 +27,9 @@
   color: #36A2EB !important;
 }
 .headerColor {
+}
+.bounce a{
+  font-size: 250%;
 }
 .ico {
   width: 10px;
