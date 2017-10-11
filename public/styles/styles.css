@@ -1,7 +1,7 @@
 .Header-container{
   background-image: url("../background/camelias2.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 20% 20%;
 }
 .card-content {
   min-height: 200px;
