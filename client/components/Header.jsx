@@ -70,11 +70,11 @@ const Header = ({isAuthenticated}) => (
       <div className="nav">
         <div className=" Header-navbar">
           <div className="nav-left">
-            <div className="nav-item">
+            <div className="nav-item" onClick={()=>jump(".Contact-container")}>
               <span className="icon">
-                <i className="ion-ios-circle-filled is-large"></i>
+                <i className="fa fa-map-marker is-medium"></i>
               </span>
-              <p className="subtitle" onClick={()=>jump(".Contact-container")}> Kontakt </p>
+              <p className="subtitle"> Kontakt </p>
             </div>
           </div>
         </div>

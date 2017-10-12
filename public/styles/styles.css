@@ -28,7 +28,10 @@ img {
 }
 .HeaderBody-title{
 }
-
+.Thumbnails-card:hover,
+.homeicon:hover {
+  cursor:pointer;
+}
 .ion-ios-telephone {
   height: 200%;
 }

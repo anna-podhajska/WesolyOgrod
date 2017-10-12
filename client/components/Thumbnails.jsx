@@ -9,7 +9,7 @@ class Thumbnails extends React.Component {
 
         <div className="">
 
-          <div className="columns is-desktop">
+          <div className="columns is-desktop Thumbnails-card">
 
             <div className="column is-half-mobile Thumbnails-card" onClick={()=>jump(".Centrum-container")}>
               <div className="card">
@@ -61,28 +61,6 @@ class Thumbnails extends React.Component {
                   </div>
                 </div>
             </div>
-
-
-
-
-              {/* <div className="column  is-half-mobile Thumbnails-card">
-                <div className="card">
-                    <div className="card-image">
-                      <figure className="image is-4by3">
-                        <img src="background/kwiaciarnia-girl.jpg" alt="Placeholder image" />
-                      </figure>
-                    </div>
-                    <div className="card-content">
-                      <div className="content">
-                        <h3 className="Thum-title">Kwiaciarnia</h3>
-                        <p>Kwiaty, rośliny domowe, donice, środki ochrony rolin i nawozy.  </p>
-                      </div>
-                    </div>
-                </div>
-              </div> */}
-
-
-
 
           </div>
 
