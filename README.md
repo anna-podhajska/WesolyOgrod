@@ -14,7 +14,9 @@ You'll find us online http://wesolyogrod.herokuapp.com/#/
 
 ### Description
 
-Full stack app that displays gardening company website.
+- Content creation 
+- Graphical design
+- Full stack development
 
 ### Authors
 - Ania Podhajska 
