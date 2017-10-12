@@ -66,9 +66,9 @@ class Contact extends React.Component {
               </div>
           </div>
 
-          <div className="tile is-ancestor has-text-centered homeicon" onClick={()=>jump(".app-body")}>
+          <div className="tile is-ancestor has-text-centered" onClick={()=>jump(".app-body")}>
             <article className="tile is-child box">
-              <span className="icon">
+              <span className="icon homeicon">
                 <i className="fa fa-home is-large"></i>
               </span>
               <p className="title Centrum-title"></p>

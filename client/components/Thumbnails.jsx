@@ -21,7 +21,7 @@ class Thumbnails extends React.Component {
                 <div className="card-content">
                   <div className="content">
                     <h3 className="Thum-title">Centrum Ogrodnicze</h3>
-                    <p>Architektura ogrodowa, kamień, sprzęt ogrodowy i inne.  </p>
+                    <p>Architektura ogrodowa, kamień, sprzęt ogrodowy i inne. <span className="green">Wejdź</span>  </p>
                   </div>
                 </div>
               </div>
@@ -38,14 +38,14 @@ class Thumbnails extends React.Component {
                 <div className="card-content">
                   <div className="content">
                     <h3 className="Thum-title">Szkółka</h3>
-                    <p>Szkółka drzew i krzewów ozdobnych, rośliny formowane.   </p>
+                    <p>Szkółka drzew i krzewów ozdobnych, rośliny formowane. <span className="green">Wejdź</span>  </p>
                   </div>
                 </div>
               </div>
             </div>
 
 
-            <div className="column Thumbnails-card">
+            <div className="column Thumbnails-card" onClick={()=>jump(".Aranzacja-container")}>
               <div className="card">
                   <div className="card-image">
                     <figure className="image is-4by3">
@@ -56,7 +56,7 @@ class Thumbnails extends React.Component {
                   <div className="card-content">
                     <div className="content">
                       <h3 className="Thum-title">Aranżacja ogrodów</h3>
-                      <p>Aranżacja terenów zielonych, nawadnianie, trawniki.  </p>
+                      <p>Aranżacja terenów zielonych, nawadnianie, trawniki. <span className="green">Wejdź</span> </p>
                     </div>
                   </div>
                 </div>
