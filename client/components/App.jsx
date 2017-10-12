@@ -5,6 +5,9 @@ import {connect} from 'react-redux'
 import Header from './Header'
 import Thumbnails from './Thumbnails'
 import Contact from './Contact'
+import CentrumOgrodnicze from './CentrumOgrodnicze'
+import Szkolka from "./Szkolka"
+import Aranzacja from "./Aranzacja"
 import Footer from './Footer'
 
 // import Register from './Register'
@@ -20,6 +23,9 @@ class App extends React.Component {
           <div className="app-body">
             <Route path="/" component={Thumbnails} />
             <Route path="/" component={Contact} />
+            <Route path="/" component={CentrumOgrodnicze} />
+            <Route path="/" component={Szkolka} />
+            <Route path="/" component={Aranzacja} />
             <Route path="/" component={Footer} />
           </div>
         </div>

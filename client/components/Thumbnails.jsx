@@ -1,5 +1,5 @@
 import React from 'react'
-// import jump from 'jump.js'
+import jump from 'jump.js'
 
 class Thumbnails extends React.Component {
 
@@ -7,12 +7,11 @@ class Thumbnails extends React.Component {
 
     return (
 
-
         <div className="">
 
           <div className="columns is-desktop">
 
-            <div className="column  is-half-mobile Thumbnails-card">
+            <div className="column is-half-mobile Thumbnails-card" onClick={()=>jump(".Centrum-container")}>
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-4by3">

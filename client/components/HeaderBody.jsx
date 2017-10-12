@@ -6,7 +6,7 @@ const HeaderBody = () => (
     <span className="" onClick={() => jump('.app-body')}>
         <img className="HeaderBody-logo" src="logo_2.png"></img> <br />
         <a>
-          <h1 className="title is-1 is-spaced is-large">Wesoły Ogród</h1>
+          <h1 className="title is-1 is-spaced HeaderBody-title">Wesoły Ogród</h1>
         </a>
         <a>
           <h3 className="subtitle is-3 bounce animated ClickMe">

@@ -4,6 +4,10 @@ body {
 a {
   color: #848E5A;
 }
+img {
+  padding: 0;
+  margin: 0;
+}
 .Header-container{
   background-image: url("../background/wisnia.jpeg");
   background-repeat: no-repeat;
@@ -11,21 +15,26 @@ a {
 }
 .Contact-container{
   padding-top: 2em;
+  padding-bottom: 2rem;
 }
 .Contact-contact {
   min-height: 200px;
 }
 .Contact-map {
-  padding-top: 4em;
+  padding-top: 2em;
 }
 .HeaderBody-logo {
   width: 40%;
 }
+.HeaderBody-title{
+}
+
 .ion-ios-telephone {
   height: 200%;
 }
-.Contact-title {
-  padding-top: 2rem;
+
+.p-padding-top {
+  padding-top: 1em;
 }
 
 .ico {
@@ -84,7 +93,7 @@ i.fa.fa-thumbs-up {
 }
 
 .mapSinglecol {
-  height: 430px;
+  height: 380px;
 }
 
 .Comment {
