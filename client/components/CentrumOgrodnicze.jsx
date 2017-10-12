@@ -46,7 +46,7 @@ class CentrumOgrodnicze extends React.Component {
                     <p className="subtitle">cebule, nasiona, rośliny doniczkowe</p>
 
                     <p className="content">Posiadamy szeroki wybór cebul kwiatowych, zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, kosaćce, funkie, mieczyki, begonie, zawilce, hiacynty) a także tych oryginalnych i mniej znanych (rozchodnik, szafirki, szachownice, amarylis, bodziszki, dalie cebule, czosnki, zimowit, śnieżnik).</p>
-                    <p className="content"> Posiadamy również w ofercie nasiona gatunkowych traw. </p>
+                    <p className="content"> W naszej ofercie znajduje się bogaty wybór nasion traw różnych gatunków. Pomożemy dobrać mieszankę zależnie od nasłonecznienia, nawodnienia i uzytkowania trawnika. </p>
 
                     <div className="p-padding-top">
                       <figure className="image">

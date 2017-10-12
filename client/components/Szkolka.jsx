@@ -12,29 +12,86 @@ class Szkolka extends React.Component {
           </article>
         </div>
 
-
         <div className="tile is-ancestor">
-            <div className="tile is-4 is-vertical is-parent">
+            <div className="tile is-3 is-vertical is-parent">
                 <div className="tile is-child box">
-                    <p className="title">One</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                    <figure className="image">
-                      <img src="background/szkolka/nursery-swierki.jpeg" />
+                    <div className="">
+                        <figure className="image">
+                          <img src="background/szkolka/nursery-swierki.jpeg" />
+                        </figure>
+                        <span className="subtitle"><strong>Świerki i sosny</strong></span>
+                        <p className="">
+                          Posiadamy hodowlę świerków srebrnych, jodeł oraz sosien. Oferujemy sprzedaż hurtową oraz detaliczną. Prowadzimy sprzedaż ciętych i doniczkowych choinek w okresie świątecznym.
+                        </p>
+                    </div>
+                    <div className="p-padding-top">
+                        <figure className="image">
+                          <img src="background/szkolka/nursery-form.jpg" />
+                        </figure>
+                        <span className="subtitle"><strong>Rośliny formowane</strong></span>
+                        <p className="">
+                          Produkujemy rośliny formowane różnych rozmiarów. Nadają się one zarówno do hodowli w gruncie jak i donicach. Formowane są thuje, cyprysy, jałowce oraz rośliny liściaste.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className="tile is-2 is-vertical is-parent">
+                <div className="tile is-child box">
+                  <figure className="image p-padding-top">
+                    <img src="background/szkolka/nursery-swierki-srebr.jpeg" />
+                  </figure>
+
+                    <figure className="image p-padding-top">
+                      <img src="background/szkolka/nursery-form-grow.jpg" />
+                    </figure>
+
+                    {/* <figure className="image p-padding-top">
+                      <img src="background/szkolka/trees-red-yellow.jpeg" />
+                    </figure> */}
+                </div>
+            </div>
+
+            <div className="tile is-parent ">
+                <div className="tile is-child box">
+                    <p className="title">Szkółka drzew i krzewów ozdobnych</p>
+                    <p className="p-padding-top"><strong>Mamy 30 lat doświadczenia</strong>. Nasza Szkółka została powstała w roku 1986 w Olszowej w województwie wielkopolskim. Przez kolejne lata działalności rozrastała się dzięki inwestycjom w sprzęt, wprowadzeniu nowych roślin oraz poszerzeniu terenu uprawny.</p>
+
+                    <p className="p-padding-top">Oferta jest skierowana zarówno do klientów indywidualnych jak i punktów sprzedaży roślin. Posiadamy w ofercie hurtowe ilości <strong>świerka</strong>, sosny, jodeł, jałowców oraz drzew formowanych.</p>
+
+                    <p className="p-padding-top">Posiadamy wybór roślin <strong>żywopłotowych</strong> i szpalerowych takich jak żywotnik zachodni (Thuja occidentalis), żywotnik wschodni (Thuja orientalis), żywotnik olbrzymi (Thuja plicata) i inne. Liczne odmiany tui sprawiają, że wybór tych roślin jest bardzo duży. Mogą być to odmiany o koronach kulistych bądź stożkowatych, wysokie lub niskie, o różnym kolorze igieł. Ze względu na dekoracyjny wygląd, małe wymagania oraz mrozoodporność, żywotniki są częstymi gośćmi w ogrodach ozdobnych.
+                    </p>
+
+                    <p className="p-padding-top">Posiadamy w sprzedaży <strong>krzewy kwitnące</strong> takie jak azalie, rhododendrony, azalie, kamelie, forsycje i wiele innych. Oferujemy wybór roślin skalnych, bambusów, traw i innych roślin ogrodowych.</p>
+
+                    <p className="p-padding-top">Oferujemy <strong>fachową pomoc</strong> w dobraniu roślin w zależnoci od rodzaju gleby, nasłonecznienia oraz użyteczności tereny zielonego</p>
+                </div>
+            </div>
+
+
+
+
+            <div className="tile is-3 is-vertical is-parent">
+                <div className="tile is-child box">
+                    <figure className="image p-padding-top">
+                      <img src="background/szkolka/nursery-peonias.jpg" />
+                    </figure>
+
+                    {/* <figure className="image p-padding-top">
+                      <img src="background/szkolka/nursery-baby.jpeg" />
+                    </figure> */}
+
+                    <figure className="image p-padding-top">
+                      <img src="background/szkolka/azalie_zolte.jpg" />
+                    </figure>
+
+                    <figure className="image p-padding-top">
+                      <img src="background/szkolka/sukulenty.jpeg" />
                     </figure>
                 </div>
-                <div className="tile is-child box">
-                    <p className="title">Two</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-                </div>
             </div>
-            <div className="tile is-parent">
-                <div className="tile is-child box">
-                    <p className="title">Three</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
-                    <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
-                    <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
-                </div>
-            </div>
+
         </div>
 
 
