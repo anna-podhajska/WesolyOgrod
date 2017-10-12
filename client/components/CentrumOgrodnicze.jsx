@@ -115,9 +115,6 @@ class CentrumOgrodnicze extends React.Component {
             </article>
           </div>
 
-
-
-
       </div>
 
     )

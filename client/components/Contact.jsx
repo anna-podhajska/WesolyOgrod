@@ -1,6 +1,6 @@
 import React from 'react'
 import MapSingle from './MapSingle'
-// import jump from 'jump.js'
+import jump from 'jump.js'
 
 class Contact extends React.Component {
 
@@ -65,6 +65,16 @@ class Contact extends React.Component {
                 </div>
               </div>
           </div>
+
+          <div className="tile is-ancestor has-text-centered homeicon" onClick={()=>jump(".app-body")}>
+            <article className="tile is-child box">
+              <span className="icon">
+                <i className="fa fa-home is-large"></i>
+              </span>
+              <p className="title Centrum-title"></p>
+            </article>
+          </div>
+
     </div>
 
 

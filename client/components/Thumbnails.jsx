@@ -28,7 +28,7 @@ class Thumbnails extends React.Component {
             </div>
 
 
-            <div className="column  is-half-mobile Thumbnails-card">
+            <div className="column  is-half-mobile Thumbnails-card" onClick={()=>jump(".Szkolka-container")}>
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-4by3">
