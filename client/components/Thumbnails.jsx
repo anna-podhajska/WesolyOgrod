@@ -11,7 +11,7 @@ class Thumbnails extends React.Component {
 
           <div className="columns is-desktop Thumbnails-card">
 
-            <div className="column Thumbnails-card" onClick={()=>jump(".Centrum-container")}>
+            <div className="column Thumbnails-card" onClick={()=>jump(".Centrum-jump")}>
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-4by3">
@@ -28,7 +28,7 @@ class Thumbnails extends React.Component {
             </div>
 
 
-            <div className="column Thumbnails-card" onClick={()=>jump(".Szkolka-container")}>
+            <div className="column Thumbnails-card" onClick={()=>jump(".Szkolka-jump")}>
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-4by3">
@@ -45,7 +45,7 @@ class Thumbnails extends React.Component {
             </div>
 
 
-            <div className="column Thumbnails-card" onClick={()=>jump(".Aranzacja-container")}>
+            <div className="column Thumbnails-card" onClick={()=>jump(".Aranzacja-jump")}>
               <div className="card">
                   <div className="card-image">
                     <figure className="image is-4by3">

@@ -42,6 +42,9 @@ img {
 .p-padding-top {
   padding-top: 1em;
 }
+.p-margin-top {
+  padding-top: 0.5em;
+}
 
 .ico {
   width: 10px;

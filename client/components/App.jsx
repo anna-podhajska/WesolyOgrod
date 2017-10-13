@@ -18,7 +18,7 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div className='app-container'>
+        <div className='app-container container'>
           <Route path="/" component={Header} />
           <div className="app-body">
             <Route path="/" component={Thumbnails} />

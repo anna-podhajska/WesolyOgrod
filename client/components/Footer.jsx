@@ -23,7 +23,7 @@ class Footer extends React.Component {
     return (
       <div className="footer has-text-centered columns">
         <div className="column is-one-third is-offset-one-third">
-        <a className="" onClick={()=>jump(".hero-head")}>
+        <a className="" onClick={()=>jump(".app-body")}>
           <p>
             <img className="logo-footer" src="logo.svg"></img>
           </p>

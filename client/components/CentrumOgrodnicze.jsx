@@ -7,7 +7,16 @@ class CentrumOgrodnicze extends React.Component {
 
       <div className="Centrum-container">
 
-        <div className="tile is-ancestor has-text-centered">
+        <div className="tile is-ancestor has-text-centered p-margin-top" onClick={()=>jump(".app-body")}>
+          <article className="tile is-child box">
+            <span className="icon homeicon">
+              <i className="fa fa-home is-large"></i>
+            </span>
+            <p className="title Centrum-title"></p>
+          </article>
+        </div>
+
+        <div className="tile is-ancestor has-text-centered p-margin-top Centrum-jump">
           <article className="tile is-child box">
             <p className="title Centrum-title">CENTRUM OGRODNICZE</p>
           </article>
@@ -49,29 +58,27 @@ class CentrumOgrodnicze extends React.Component {
                   </div>
                 <div className="tile is-parent">
                     <article className="tile is-child box">
-                      <p className="title is-size-5-mobile">Cebule i nasiona</p>
-                      <p className="subtitle">cebulki kwiatowe, nasiona traw</p>
+                        <p className="title is-size-5-mobile">Cebule i nasiona</p>
+                        <p className="subtitle">cebulki kwiatowe, nasiona traw</p>
 
-                      <p className="content">Posiadamy w sprzey cebule kwiatowye oraz nasiona.</p>
-                      <p className="content"> Oferujemy wybór zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, kosaćce, funkie, mieczyki, begonie, zawilce, hiacynty) a także tych oryginalnych i mniej znanych (rozchodnik, szafirki, szachownice, amarylis, bodziszki, dalie cebule, czosnki, zimowit, śnieżnik).</p>
-                      <p className="content"> W naszej ofercie znajduje się bogaty wybór nasion traw różnych gatunków. Pomożemy dobrać mieszankę zależnie od nasłonecznienia, nawodnienia i uzytkowania trawnika. </p>
+                        <p className="content"> Oferujemy wybór cebulek zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, kosaćce, funkie, mieczyki, begonie, zawilce, hiacynty) a także tych oryginalnych i mniej znanych (rozchodnik, szafirki, szachownice, amarylis, bodziszki, dalie cebule, czosnki, zimowit, śnieżnik).</p>
+                        <p className="content"> W naszej ofercie znajduje się bogaty wybór nasion traw różnych gatunków. Pomożemy dobrać mieszankę zależnie od nasłonecznienia, nawodnienia i uzytkowania trawnika. </p>
+                        <div className="p-padding-top">
+                          <figure className="image">
+                            <img src="background/centrum/bulbs-przebisnieg.jpeg" />
+                          </figure>
+                        </div>
+                        <div className="p-padding-top is-hidden-mobile">
+                          <figure className="image">
+                            <img src="background/centrum/daffodil.jpeg" />
+                          </figure>
+                        </div>
+                        <div className="p-padding-top">
+                          <figure className="image">
+                            <img src="background/centrum/dzwonki.jpeg" />
+                          </figure>
+                        </div>
 
-                      <div className="p-padding-top">
-                        <figure className="image">
-                          <img src="background/centrum/bulbs-przebisnieg.jpeg" />
-                        </figure>
-                      </div>
-                      <div className="p-padding-top is-hidden-mobile">
-                        <figure className="image">
-                          <img src="background/centrum/daffodil.jpeg" />
-                        </figure>
-                      </div>
-                      <div className="p-padding-top">
-                        <figure className="image">
-                          <img src="background/centrum/dzwonki.jpeg" />
-                        </figure>
-                        {/* <p className="p-padding-top">Nasiona traw, pielęknacja, nawożenie i odchwaszczanie trawników.</p> */}
-                      </div>
                     </article>
                 </div>
               </div>
@@ -79,48 +86,27 @@ class CentrumOgrodnicze extends React.Component {
 
             <div className="tile is-parent is-vertical">
               <article className="tile is-child box">
+                <p className="title is-size-5-mobile">Architektura ogrodowa</p>
+                <p className="subtitle">Pergole, płoty, donice</p>
+                <p className="content">Meble ogrodowe, pergole, płoty, rollbordery, donice i inne. Oferujemy aranżację i budowę pergol i altan ogrodowych na indywidualne zamówienie.</p>
+                <figure className="image">
+                  <img src="background/centrum/pergola.jpeg" />
+                </figure>
+                <figure className="image p-padding-top">
+                  <img src="background/centrum/wooden-fence.jpeg" />
+                </figure>
+              </article>
+              <article className="tile is-child box">
                   <p className="title is-size-5-mobile">Pielęgnacja ogrodu</p>
                   <p className="subtitle">akcesoria ogrodnicze</p>
                       <figure className="image">
-                        <img src="background/centrum/lawn.jpeg" />
+                        <img src="background/centrum/ziemia-lopatka.jpeg" />
                       </figure>
-                      <p className="p-padding-top">Sprzęt i akcesoria do pielęgnacji i nawadniania ogrodu. Węże ogrodowe, systemy nawadniania, sekatory, opryskiwacze i inne.</p>
-              </article>
-
-              <article className="tile is-child box">
-                  <p className="title is-size-5-mobile">Architektura ogrodowa</p>
-                  <p className="subtitle">Pergole, płoty, donice</p>
-                    <p className="content">Meble ogrodowe, pergole, płoty, rollbordery, donice i inne. Oferujemy aranżację i budowę pergol i altan ogrodowych na indywidualne zamówienie.</p>
-                    <figure className="image">
-                      <img src="background/centrum/pergola.jpeg" />
-                    </figure>
-                    <figure className="image p-padding-top">
-                      <img src="background/centrum/wooden-fence.jpeg" />
-                    </figure>
+                      <p className="p-padding-top">Sprzęt i akcesoria do pielęgnacji i nawadniania ogrodu. Węże ogrodowe, elementy systemów nawadniania, sekatory, opryskiwacze i inne.</p>
               </article>
             </div>
 
-
-
-
-
-
-
-
-
-
-
           </div>
-
-          <div className="tile is-ancestor has-text-centered box" onClick={()=>jump(".app-body")}>
-            <article className="tile is-child ">
-              <span className="icon homeicon">
-                <i className="fa fa-home is-large"></i>
-              </span>
-              <p className="title Centrum-title"></p>
-            </article>
-          </div>
-
 
       </div>
 
