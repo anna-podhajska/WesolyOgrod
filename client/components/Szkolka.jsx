@@ -87,8 +87,8 @@ class Szkolka extends React.Component {
                       <img src="background/szkolka/nursery-peonias.jpg" />
                     </figure>
                   </div>
-                  <div className="tile is-child box">
-                    <figure className="image is-4by3 is-hidden-mobile">
+                  <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3 ">
                       <img src="background/szkolka/sukulenty.jpeg" />
                     </figure>
                   </div>
@@ -97,8 +97,8 @@ class Szkolka extends React.Component {
                       <img src="background/szkolka/nursery-skalniaki-doniczki.jpeg" />
                     </figure>
                   </div>
-                  <div className="tile is-child box">
-                    <figure className="image is-4by3 is-hidden-mobile">
+                  <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3 ">
                       <img src="background/aranzacja/nursery-hand.jpg" />
                     </figure>
                   </div>

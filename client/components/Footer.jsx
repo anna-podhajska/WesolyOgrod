@@ -33,7 +33,7 @@ class Footer extends React.Component {
                       </a>
                   </li>
                   <li>
-                      <p>Wesoły Ogród</p>
+                      <p> &copy; Wesoły Ogród</p>
                   </li>
                   <li className="Footer-designer-contact">
                       <a href="mailto:ani_w@o2.pl">

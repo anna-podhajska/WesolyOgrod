@@ -80,13 +80,13 @@ class Aranzacja extends React.Component {
                       <img src="background/aranzacja/ania_garden_back_small.jpg" />
                     </figure>
                   </div>
-                  <div className="tile is-child box">
-                    <figure className="image is-4by3 is-hidden-mobile">
+                  <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3 ">
                       <img src="background/szkolka/sukulenty.jpeg" />
                     </figure>
                   </div>
-                  <div className="tile is-child box">
-                    <figure className="image is-4by3 is-hidden-mobile">
+                  <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3">
                       <img src="background/szkolka/nursery-skalniaki-doniczki.jpeg" />
                     </figure>
                   </div>

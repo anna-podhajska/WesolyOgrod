@@ -22,6 +22,7 @@ class CentrumOgrodnicze extends React.Component {
           </article>
         </div>
 
+
           <div className="tile is-ancestor">
             <div className="tile is-vertical is-8">
               <div className="tile">
@@ -73,7 +74,7 @@ class CentrumOgrodnicze extends React.Component {
                             <img src="background/centrum/daffodil.jpeg" />
                           </figure>
                         </div>
-                        <div className="p-padding-top">
+                        <div className="p-padding-top is-hidden-mobile">
                           <figure className="image">
                             <img src="background/centrum/dzwonki.jpeg" />
                           </figure>
