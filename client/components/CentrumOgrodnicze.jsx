@@ -42,18 +42,21 @@ class CentrumOgrodnicze extends React.Component {
                       <p className="title is-size-5">Nawozy</p>
                       <p className="subtitle">nawożenie i zakwaszanie roślin</p>
                       <div className="">
+                          <p className="content">Gwarantujemy fachową poradę przy wyborze produktów i doradzamy jak pielęgnować rośliny.</p>
 
-                        <p className="content">Gwarantujemy fachową poradę przy wyborze produktów i doradzamy jak pielęgnować rośliny.</p>
+                          <p className="content">
+                            Oferujemy szeroki wybór nawozów dla roślin ozdobnych i traw.
+                          </p>
+                          <figure className="image p-padding-bottom">
+                            <img src="background/centrum/grass.jpeg" />
+                          </figure>
 
-                        <figure className="image">
-                          <img src="background/centrum/grass.jpeg" />
-                        </figure>
-                          <p className="content ">Oferujemy również szeroki wybór nawozów dla roślin ozdobnych i traw. </p>
-
-                        <figure className="image">
-                          <img src="background/centrum/blueberries.jpeg" />
-                        </figure>
-                        <p className="content ">Posiadamy również specjalistyczne nawozy do warzyw i owoców, drzew i krzewów plonujących oraz najlepsze na rynku nawozy do borówek</p>
+                          <p className="content">
+                            Posiadamy specjalistyczne nawozy do warzyw, owoców, drzew i krzewów plonujących oraz najlepsze na rynku nawozy do borówek
+                          </p>
+                          <figure className="image">
+                            <img src="background/centrum/blueberries.jpeg" />
+                          </figure>
                       </div>
                     </article>
                   </div>
@@ -61,12 +64,11 @@ class CentrumOgrodnicze extends React.Component {
                     <article className="tile is-child box">
                         <p className="title is-size-5">Cebule i nasiona</p>
                         <p className="subtitle">cebulki kwiatowe, nasiona traw</p>
-
-                        <p className="content"> Oferujemy wybór cebulek zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, kosaćce, funkie, mieczyki, begonie, zawilce, hiacynty) a także tych oryginalnych i mniej znanych (rozchodnik, szafirki, szachownice, amarylis, bodziszki, dalie cebule, czosnki, zimowit, śnieżnik).</p>
-                        <p className="content"> W naszej ofercie znajduje się bogaty wybór nasion traw różnych gatunków. Pomożemy dobrać mieszankę zależnie od nasłonecznienia, nawodnienia i uzytkowania trawnika. </p>
+                        <p className="content"> Oferujemy wybór cebulek zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, funkie, mieczyki, begonie, zawilce, hiacynty) a także tych oryginalnych i mniej znanych (szafirki, amarylisy, bodziszki, dalie cebule, czosnki, zimowity).</p>
+                        <p className="content"> W naszej ofercie znajduje się bogaty wybór nasion traw różnych gatunków. Pomożemy dobrać mieszankę trawnikową zależnie od nasłonecznienia, nawodnienia i uzytkowania trawnika. </p>
                         <div className="p-padding-top">
                           <figure className="image">
-                            <img src="background/centrum/bulbs-przebisnieg.jpeg" />
+                            <img src="background/centrum/dzwonki.jpeg" />
                           </figure>
                         </div>
                         <div className="p-padding-top is-hidden-mobile">
@@ -76,7 +78,7 @@ class CentrumOgrodnicze extends React.Component {
                         </div>
                         <div className="p-padding-top is-hidden-mobile">
                           <figure className="image">
-                            <img src="background/centrum/dzwonki.jpeg" />
+                            <img src="background/centrum/bulbs-przebisnieg.jpeg" />
                           </figure>
                         </div>
 
