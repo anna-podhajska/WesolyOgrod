@@ -35,10 +35,10 @@ class Footer extends React.Component {
                   <li>
                       <p>Wesoły Ogród</p>
                   </li>
-                  <li>
+                  <li className="Footer-designer-contact">
                       <a href="mailto:ani_w@o2.pl">
                         <p className="menu-label">
-                          Made & designed by Anna Podhajska
+                          Designed & made by Anna Podhajska
                         </p>
                       </a>
                   </li>

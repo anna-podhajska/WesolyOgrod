@@ -37,11 +37,11 @@ class Szkolka extends React.Component {
                 </article>
                 <div className="tile is-child box">
                       <div className="">
-                          <figure className="image">
+                          <figure className="image p-padding-bottom">
                             <img src="background/szkolka/nursery-form.jpg" />
                           </figure>
                             <p className="content">
-                                <span className="title is-size-5">Rośliny formowane</span><br/>
+                                <span className="subtitle">Rośliny formowane</span><br/>
                                 <span>Produkujemy rośliny formowane różnych rozmiarów. Nadają się one zarówno do hodowli w gruncie jak i donicach. Formowane są thuje, cyprysy, jałowce oraz rośliny liściaste.
                                 </span>
                             </p>
@@ -49,11 +49,11 @@ class Szkolka extends React.Component {
                 </div>
                 <div className="tile is-child box">
                       <div className="">
-                          <figure className="image">
+                          <figure className="image p-padding-bottom">
                             <img src="background/szkolka/nursery-swierki.jpeg" />
                           </figure>
                           <p className="">
-                            <span className="title is-size-5">Świerki i sosny</span><br/>
+                            <span className="subtitle">Świerki i sosny</span><br/>
                             Posiadamy hodowlę świerków srebrnych, jodeł oraz sosien. Oferujemy sprzedaż hurtową oraz detaliczną.
                             Prowadzimy sprzedaż choinek ciętych i doniczkowych w
                             <span className="green"><strong> okresie świątecznym</strong></span>.
@@ -68,9 +68,10 @@ class Szkolka extends React.Component {
             <div className="tile is-parent">
                 <article className="tile is-child box has-text-justified">
                   {/* <p className="subtitle"><strong>Zakres działalności</strong></p> */}
-                  <p className="">Oferujemy szeroki wybór roślin <strong>żywopłotowych</strong> i szpalerowych takich jak żywotnik zachodni (Thuja occidentalis), żywotnik wschodni (Thuja orientalis), żywotnik olbrzymi (Thuja plicata) i inne. Liczne odmiany tui sprawiają, że wybór tych roślin jest bardzo duży. Mogą być to odmiany o koronach kulistych bądź stożkowatych, wysokie lub niskie, o różnym kolorze igieł. Ze względu na dekoracyjny wygląd, małe wymagania oraz mrozoodporność, żywotniki są częstymi gośćmi w ogrodach ozdobnych.
+                  <p className="">Oferujemy szeroki wybór odmian <strong>roślin żywopłotowych</strong> i szpalerowych takich jak żywotników (Thuj), cyprysów, jałowców, ale też roślin liściastych.
                   </p>
-                  <p className="p-padding-top">Posiadamy w sprzedaży <strong>krzewy kwitnące</strong> takie jak azalie, rhododendrony, azalie, kamelie, forsycje i wiele innych. Oferujemy wybór roślin skalnych, bambusów, traw i innych roślin ogrodowych.</p>
+                  <p className="p-padding-top">Posiadamy w sprzedaży <strong>krzewy kwitnące</strong> takie jak azalie, rhododendrony, kamelie, forsycje, rośliny skalne, czy też trawy</p>
+                  <p className="p-padding-top">Nowością są <strong>bambusy ogrodowe</strong>, które nadają się do hodowli w naszych warunkach klimatycznych.</p>
                 </article>
             </div>
           </div>

@@ -18,7 +18,7 @@ class Aranzacja extends React.Component {
 
         <div className="tile is-ancestor has-text-centered p-margin-top Aranzacja-jump">
           <article className="tile is-child box">
-            <p className="title Centrum-title">ARANŻACJA OGRODÓW</p>
+            <p className="title Centrum-title">ARANŻACJA</p>
           </article>
         </div>
 
