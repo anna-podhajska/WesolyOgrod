@@ -82,17 +82,46 @@ class Aranzacja extends React.Component {
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3 ">
+                      <img src="background/aranzacja/ania_garden_front.jpg" />
+                    </figure>
+                  </div>
+                  {/* <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3 ">
                       <img src="background/szkolka/sukulenty.jpeg" />
+                    </figure>
+                  </div> */}
+                  <div className="tile is-child box">
+                    <figure className="image is-4by3">
+                      <img src="background/szkolka/azalie_zolte.jpg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3">
-                      <img src="background/szkolka/nursery-skalniaki-doniczki.jpeg" />
+                      <img src="background/aranzacja/camelias.jpeg" />
+                    </figure>
+                  </div>
+            </div>
+        </div>
+        <div className="tile is-ancestor">
+            <div className="tile is-parent">
+                  <div className="tile is-child box">
+                    <figure className="image is-4by3">
+                      <img src="background/aranzacja/trees-color-small.jpg" />
+                    </figure>
+                  </div>
+                  <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3 ">
+                      <img src="background/aranzacja/garden-molo.jpeg" />
                     </figure>
                   </div>
                   <div className="tile is-child box">
+                    <figure className="image is-4by3 ">
+                      <img src="background/aranzacja/skalniaki-kwiaty.jpeg" />
+                    </figure>
+                  </div>
+                  <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3">
-                      <img src="background/szkolka/azalie_zolte.jpg" />
+                      <img src="background/aranzacja/garden-lawender.jpeg" />
                     </figure>
                   </div>
             </div>
