@@ -27,7 +27,7 @@ class CentrumOgrodnicze extends React.Component {
               <div className="tile">
                   <div className="tile is-parent is-vertical">
                     <article className="tile is-child box">
-                      <p className="title is-size-5-mobile">Kwiaciarnia</p>
+                      <p className="title is-size-5">Kwiaciarnia</p>
                       <p className="subtitle">kwiaty cięte oraz rośliny doniczkowe</p>
                       <div className="">
                         <figure className="image">
@@ -38,7 +38,7 @@ class CentrumOgrodnicze extends React.Component {
                     </article>
 
                     <article className="tile is-child box">
-                      <p className="title is-size-5-mobile">Nawozy</p>
+                      <p className="title is-size-5">Nawozy</p>
                       <p className="subtitle">nawożenie i zakwaszanie roślin</p>
                       <div className="">
 
@@ -58,7 +58,7 @@ class CentrumOgrodnicze extends React.Component {
                   </div>
                 <div className="tile is-parent">
                     <article className="tile is-child box">
-                        <p className="title is-size-5-mobile">Cebule i nasiona</p>
+                        <p className="title is-size-5">Cebule i nasiona</p>
                         <p className="subtitle">cebulki kwiatowe, nasiona traw</p>
 
                         <p className="content"> Oferujemy wybór cebulek zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, kosaćce, funkie, mieczyki, begonie, zawilce, hiacynty) a także tych oryginalnych i mniej znanych (rozchodnik, szafirki, szachownice, amarylis, bodziszki, dalie cebule, czosnki, zimowit, śnieżnik).</p>
@@ -86,8 +86,8 @@ class CentrumOgrodnicze extends React.Component {
 
             <div className="tile is-parent is-vertical">
               <article className="tile is-child box">
-                <p className="title is-size-5-mobile">Architektura ogrodowa</p>
-                <p className="subtitle">Pergole, płoty, donice</p>
+                <p className="title is-size-5">Architektura ogrodowa</p>
+                <p className="subtitle">pergole, płoty, donice</p>
                 <p className="content">Meble ogrodowe, pergole, płoty, rollbordery, donice i inne. Oferujemy aranżację i budowę pergol i altan ogrodowych na indywidualne zamówienie.</p>
                 <figure className="image">
                   <img src="background/centrum/pergola.jpeg" />
@@ -97,7 +97,7 @@ class CentrumOgrodnicze extends React.Component {
                 </figure>
               </article>
               <article className="tile is-child box">
-                  <p className="title is-size-5-mobile">Pielęgnacja ogrodu</p>
+                  <p className="title is-size-5">Pielęgnacja ogrodu</p>
                   <p className="subtitle">akcesoria ogrodnicze</p>
                       <figure className="image">
                         <img src="background/centrum/ziemia-lopatka.jpeg" />

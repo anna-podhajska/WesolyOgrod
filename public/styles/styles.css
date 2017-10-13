@@ -11,6 +11,9 @@ img {
 .green{
   color: #848E5A;
 }
+.darkgreen{
+  color: #6D8923;
+}
 .Header-container{
   background-image: url("../background/wisnia.jpeg");
   background-repeat: no-repeat;

@@ -22,27 +22,39 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer has-text-centered columns">
-        <div className="column is-one-third is-offset-one-third">
-        <a className="" onClick={()=>jump(".app-body")}>
-          <p>
-            <img className="logo-footer" src="logo.svg"></img>
-          </p>
-          <p>
-            Wesoły Ogród
-          </p>
-        </a>
+          <div className="column is-one-third is-offset-one-third">
 
-        {/* uncomment if u wanna activate contact form, just remember to make it mobile-ready */}
-        {/* {
-          this.state.contactFormVisible ?
-          <ContactForm toggleContactForm={this.toggleContactForm} /> :
-            <a onClick={this.toggleContactForm}>
-              Napisz do nas
-            </a>
-          } */}
+              <ul className="menu-list">
+                  <li>
+                      <a className="" onClick={()=>jump(".app-body")}>
+                        <p>
+                          <img className="logo-footer" src="logo.svg"></img>
+                        </p>
+                      </a>
+                  </li>
+                  <li>
+                      <p>Wesoły Ogród</p>
+                  </li>
+                  <li>
+                      <a href="mailto:ani_w@o2.pl">
+                        <p className="menu-label">
+                          Made & designed by Anna Podhajska
+                        </p>
+                      </a>
+                  </li>
+              </ul>
 
-        </div>
-        </div>
+              {/* uncomment if u wanna activate contact form, just remember to make it mobile-ready */}
+              {/* {
+                this.state.contactFormVisible ?
+                <ContactForm toggleContactForm={this.toggleContactForm} /> :
+                  <a onClick={this.toggleContactForm}>
+                    Napisz do nas
+                  </a>
+                } */}
+
+          </div>
+      </div>
       )
     }
   }
