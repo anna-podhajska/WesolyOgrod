@@ -15,7 +15,7 @@ class Thumbnails extends React.Component {
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-4by3">
-                    <img src="background/gc-pink.jpg" alt="Placeholder image" />
+                    <img src="images/gc-pink.jpg" alt="Placeholder image" />
                   </figure>
                 </div>
                 <div className="card-content">
@@ -32,7 +32,7 @@ class Thumbnails extends React.Component {
               <div className="card">
                 <div className="card-image">
                   <figure className="image is-4by3">
-                    <img src="background/nursery-smallPlants.jpg" alt="Placeholder image" />
+                    <img src="images/nursery-smallPlants.jpg" alt="Placeholder image" />
                   </figure>
                 </div>
                 <div className="card-content">
@@ -49,8 +49,8 @@ class Thumbnails extends React.Component {
               <div className="card">
                   <div className="card-image">
                     <figure className="image is-4by3">
-                      <img src="background/landscape-planning.jpg" alt="Placeholder image" />
-                      {/* <img src="background/nursery-hand.jpg" alt="Placeholder image" /> */}
+                      <img src="images/landscape-planning.jpg" alt="Placeholder image" />
+                      {/* <img src="images/nursery-hand.jpg" alt="Placeholder image" /> */}
                     </figure>
                   </div>
                   <div className="card-content">

@@ -28,7 +28,7 @@ class Footer extends React.Component {
                   <li>
                       <a className="" onClick={()=>jump(".app-body")}>
                         <p>
-                          <img className="logo-footer" src="logo.svg"></img>
+                          <img className="logo-footer" src="logo.png"></img>
                         </p>
                       </a>
                   </li>

@@ -37,7 +37,7 @@ class Szkolka extends React.Component {
                 <div className="tile is-child box">
                       <div className="">
                           <figure className="image p-padding-bottom">
-                            <img src="background/szkolka/nursery-form.jpg" />
+                            <img src="images/szkolka/nursery-form.jpg" />
                           </figure>
                             <p className="content">
                                 <span className="subtitle">Rośliny formowane</span><br/>
@@ -49,7 +49,7 @@ class Szkolka extends React.Component {
                 <div className="tile is-child box">
                       <div className="">
                           <figure className="image p-padding-bottom">
-                            <img src="background/szkolka/nursery-swierki.jpeg" />
+                            <img src="images/szkolka/nursery-swierki.jpeg" />
                           </figure>
                           <p className="">
                             <span className="subtitle">Świerki i sosny</span><br/>
@@ -83,22 +83,22 @@ class Szkolka extends React.Component {
                   </div>
                   <div className="tile is-child box">
                     <figure className="image is-4by3">
-                      <img src="background/szkolka/nursery-peonias.jpg" />
+                      <img src="images/szkolka/nursery-peonias.jpg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3 ">
-                      <img src="background/szkolka/sukulenty.jpeg" />
+                      <img src="images/szkolka/sukulenty.jpeg" />
                     </figure>
                   </div>
                   <div className="tile is-child box">
                     <figure className="image is-4by3">
-                      <img src="background/szkolka/nursery-skalniaki-doniczki.jpeg" />
+                      <img src="images/szkolka/nursery-skalniaki-doniczki.jpeg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3 ">
-                      <img src="background/aranzacja/nursery-hand.jpg" />
+                      <img src="images/szkolka/kosodrzewina.jpg" />
                     </figure>
                   </div>
             </div>

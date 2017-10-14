@@ -32,7 +32,7 @@ class CentrumOgrodnicze extends React.Component {
                       <p className="subtitle">kwiaty cięte oraz rośliny doniczkowe</p>
                       <div className="">
                         <figure className="image">
-                          <img src="background/centrum/florist-white.jpeg" />
+                          <img src="images/centrum/florist-white.jpeg" />
                         </figure>
                         <p className="p-padding-top">Oferujemy w sprzedaży rośliny doniczkowe, kwiaty cięte, obsadzane donice i wiele innych.</p>
                       </div>
@@ -48,14 +48,14 @@ class CentrumOgrodnicze extends React.Component {
                             Oferujemy szeroki wybór nawozów dla roślin ozdobnych i traw.
                           </p>
                           <figure className="image p-padding-bottom">
-                            <img src="background/centrum/grass.jpeg" />
+                            <img src="images/centrum/grass.jpeg" />
                           </figure>
 
                           <p className="content">
                             Posiadamy specjalistyczne nawozy do warzyw, owoców, drzew i krzewów plonujących oraz najlepsze na rynku nawozy do borówek
                           </p>
                           <figure className="image">
-                            <img src="background/centrum/blueberries.jpeg" />
+                            <img src="images/centrum/blueberries.jpeg" />
                           </figure>
                       </div>
                     </article>
@@ -68,17 +68,17 @@ class CentrumOgrodnicze extends React.Component {
                         <p className="content"> W naszej ofercie znajduje się bogaty wybór nasion traw różnych gatunków. Pomożemy dobrać mieszankę trawnikową zależnie od nasłonecznienia, nawodnienia i uzytkowania trawnika. </p>
                         <div className="p-padding-top">
                           <figure className="image">
-                            <img src="background/centrum/dzwonki.jpeg" />
+                            <img src="images/centrum/bulbs3.jpeg" />
                           </figure>
                         </div>
                         <div className="p-padding-top is-hidden-mobile">
                           <figure className="image">
-                            <img src="background/centrum/daffodil.jpeg" />
+                            <img src="images/centrum/bulbs-przebisnieg.jpeg" />
                           </figure>
                         </div>
                         <div className="p-padding-top is-hidden-mobile">
                           <figure className="image">
-                            <img src="background/centrum/bulbs-przebisnieg.jpeg" />
+                            <img src="images/centrum/daffodil.jpeg" />
                           </figure>
                         </div>
 
@@ -93,17 +93,17 @@ class CentrumOgrodnicze extends React.Component {
                 <p className="subtitle">pergole, płoty, donice</p>
                 <p className="content">Meble ogrodowe, pergole, płoty, rollbordery, donice i inne. Oferujemy aranżację i budowę pergol i altan ogrodowych na indywidualne zamówienie.</p>
                 <figure className="image">
-                  <img src="background/centrum/pergola.jpeg" />
+                  <img src="images/centrum/pergola.jpeg" />
                 </figure>
                 <figure className="image p-padding-top">
-                  <img src="background/centrum/wooden-fence.jpeg" />
+                  <img src="images/centrum/wooden-fence.jpeg" />
                 </figure>
               </article>
               <article className="tile is-child box">
                   <p className="title is-size-5">Pielęgnacja ogrodu</p>
                   <p className="subtitle">akcesoria ogrodnicze</p>
                       <figure className="image">
-                        <img src="background/centrum/ziemia-lopatka.jpeg" />
+                        <img src="images/centrum/ziemia-lopatka.jpeg" />
                       </figure>
                       <p className="p-padding-top">Sprzęt i akcesoria do pielęgnacji i nawadniania ogrodu. Węże ogrodowe, elementy systemów nawadniania, sekatory, opryskiwacze i inne.</p>
               </article>
