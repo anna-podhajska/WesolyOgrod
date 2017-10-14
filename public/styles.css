@@ -1,5 +1,5 @@
 .Header-container{
-  background-image: url("background/garden-molo.jpeg");
+  background-image: url("images/garden-molo.jpeg");
 }
 .Header-navbar{
   /*background-color: white;*/
@@ -154,7 +154,7 @@ i.fa.fa-thumbs-up {
   height: 60px;
 }
 .logo-footer {
-  height: 60px;
+  height: 90px;
 }
 .red {
   color: #FF6384;
