@@ -1,5 +1,5 @@
 body {
-  font-family: 'Playfair Display', serif;
+  /*font-family: 'Playfair Display', serif;*/
 }
 a {
   color: #848E5A;
@@ -32,7 +32,9 @@ img {
 .HeaderBody-logo {
   width: 40%;
 }
-.HeaderBody-title{
+.HeaderBody-title,
+.ClickMe {
+  font-family: 'Kaushan Script', cursive;
 }
 .Thumbnails-card:hover,
 .homeicon:hover {

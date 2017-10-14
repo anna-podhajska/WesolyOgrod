@@ -22,13 +22,12 @@ class Szkolka extends React.Component {
         </div>
 
 
-
         <div className="tile is-ancestor">
             <div className="tile is-parent">
 
                 <article className="tile is-child box has-text-justified">
                     <p className="title is-size-5">O nas</p>
-                    <p className="content">Nasza Szkółka została powstała w roku 1986 w Olszowej w województwie wielkopolskim.
+                    <p className="content">Nasza Szkółka powstała w roku 1986 w Olszowej w województwie wielkopolskim.
                     Przez kolejne lata działalności rozrastała się dzięki inwestycjom w sprzęt, wprowadzeniu nowych roślin oraz poszerzeniu terenu uprawny. <strong>Mamy 30 lat doświadczenia w hodowli roślin</strong>.</p>
 
                     <p className="content">Oferujemy <strong>fachową pomoc</strong> w dobraniu roślin w zależnoci od rodzaju gleby, nasłonecznienia oraz sposobu użytkowania terenu zielonego.</p>
@@ -54,7 +53,7 @@ class Szkolka extends React.Component {
                           </figure>
                           <p className="">
                             <span className="subtitle">Świerki i sosny</span><br/>
-                            Posiadamy hodowlę świerków srebrnych, jodeł oraz sosien. Oferujemy sprzedaż hurtową oraz detaliczną.
+                            Posiadamy hodowlę świerków srebrnych, jodeł oraz sosen. Oferujemy sprzedaż hurtową oraz detaliczną.
                             Prowadzimy sprzedaż choinek ciętych i doniczkowych w
                             <span className="green"><strong> okresie świątecznym</strong></span>.
 
