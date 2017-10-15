@@ -28,17 +28,17 @@ class Footer extends React.Component {
                   <li>
                       <a className="" onClick={()=>jump(".app-body")}>
                         <p>
-                          <img className="logo-footer" src="logo.png"></img>
+                          <img className="logo-footer" src="logo_green.png"></img>
                         </p>
                       </a>
                   </li>
                   <li>
-                      <p> &copy; Wesoły Ogród</p>
+                      <p className="subtitle menu-label"> &copy; Wesoły Ogród</p>
                   </li>
                   <li className="Footer-designer-contact">
                       <a href="mailto:ani_w@o2.pl">
                         <p className="menu-label">
-                          Designed & made by Anna Podhajska
+                          made by Anna Podhajska
                         </p>
                       </a>
                   </li>

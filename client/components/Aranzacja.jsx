@@ -18,7 +18,7 @@ class Aranzacja extends React.Component {
 
         <div className="tile is-ancestor has-text-centered p-margin-top Aranzacja-jump">
           <article className="tile is-child box">
-            <p className="title Centrum-title">ARANŻACJA</p>
+            <p className="title Centrum-title">ARANŻACJA OGRODÓW</p>
           </article>
         </div>
 
@@ -30,9 +30,8 @@ class Aranzacja extends React.Component {
                     <p className="title is-size-5">
                       Aranzacja ogrodów, tarasów i terenów zielonych.
                     </p>
-                    <p>Aranżujemy ogrody, ogródki, zakładamy trawniki, obsadzamy donice tarasowe. Pomagamy uporządkować istniejące ogrody, obsadzamy kwiatami i przycinamy żywopłoty.</p>
-                    <p>Zakładamy i pielęgnujemy trawniki. Pomagamy pozbyć się chwastów oraz uczymy jak utrzymać piękny trawnik. Pomagamy zaaranżować tereny komercyjne takie jak ogródki restauracyjne, wejścia do firm, tereny zakładów przemysłowych.</p>
-                    <p>Przez lata stworzyliśmy wiele pięknych ogrodów, poniżej przedstawiamy wybrane zdjęcia tylko jednego z ostatnich.</p>
+                    <p>Kompleksowo aranżujemy <strong>ogrody</strong>, ogródki, skwery, obsadzamy donice tarasowe. Pomagamy zaaranżować tereny komercyjne takie jak ogródki restauracyjne, wejścia do firm, tereny zakładów przemysłowych. Zakładamy i pielęgnujemy <strong>trawniki</strong>. </p> <p>Zakładamy <strong>automatyczne nawadnianie</strong>.</p>
+                    <p>Aranżujemy <strong>architekturę ogrodową </strong>taką jak pergole, oczka wodne, skalniaki, obrysówki trawnika i skwerów, kamień ogrodowy.</p>
                   </article>
                 </div>
                 <div className="tile is-child box">
@@ -48,11 +47,12 @@ class Aranzacja extends React.Component {
 
             <div className="tile is-parent is-vertical">
                   <div className="tile is-child has-text-centered content box">
-                    <p className="title is-size-5">Nasze aranżacje</p>
+                    <p className="title is-size-5">Nasze realizacje</p>
+                    <p>Przez lata stworzyliśmy wiele pięknych ogrodów, poniżej przedstawiamy wybrane zdjęcia tylko jednego z ostatnich.</p>
                   </div>
                   <div className="tile is-child box">
                     <figure className="image ">
-                      <img src="images/aranzacja/ania_garden_toolbox.jpg" alt="garden toolbox photo" />
+                      <img src="images/aranzacja/ania_garden_front.jpg" alt="garden toolbox photo" />
                     </figure>
                   </div>
                   <div className="tile is-child box">
@@ -61,10 +61,13 @@ class Aranzacja extends React.Component {
                     </figure>
                   </div>
             </div>
-            <div className="tile is-parent is-6 is-hidden-mobile">
+            <div className="tile is-parent is-6">
                   <div className="tile is-child box">
-                    <figure className="image ">
-                      <img src="images/aranzacja/ania_garden_lawn.jpg" alt="garden toolbox photo" />
+                    <figure className="image p-padding-bottom ">
+                      <img src="images/aranzacja/ania_garden_toolbox.jpg" alt="garden toolbox photo" />
+                    </figure>
+                    <figure className="image is-4by3 p-padding-top">
+                      <img src="images/aranzacja/ania_garden_back_small.jpg" />
                     </figure>
                   </div>
             </div>
@@ -77,51 +80,46 @@ class Aranzacja extends React.Component {
             <div className="tile is-parent">
                   <div className="tile is-child box">
                     <figure className="image is-4by3 ">
-                      <img src="images/aranzacja/ania_garden_back_small.jpg" />
+                      <img src="images/aranzacja/trawy-kwiaty.jpeg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3 ">
-                      <img src="images/aranzacja/ania_garden_front.jpg" />
+                      <img src="images/aranzacja/ania_garden_lawn.jpg" />
                     </figure>
                   </div>
-                  {/* <div className="tile is-child box is-hidden-mobile">
-                    <figure className="image is-4by3 ">
-                      <img src="images/szkolka/sukulenty.jpeg" />
-                    </figure>
-                  </div> */}
                   <div className="tile is-child box">
-                    <figure className="image is-4by3">
-                      <img src="images/szkolka/azalie_zolte.jpg" />
+                    <figure className="image is-4by3 is-hidden-mobile">
+                      <img src="images/aranzacja/garden-molo.jpeg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
-                    <figure className="image is-4by3">
-                      <img src="images/aranzacja/camelias.jpeg" />
+                    <figure className="image is-4by3 ">
+                      <img src="images/aranzacja/garden-lawender.jpeg" />
                     </figure>
                   </div>
             </div>
         </div>
         <div className="tile is-ancestor">
             <div className="tile is-parent">
-                  <div className="tile is-child box">
+                  <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3">
                       <img src="images/aranzacja/trees-color-small.jpg" />
                     </figure>
                   </div>
-                  <div className="tile is-child box is-hidden-mobile">
-                    <figure className="image is-4by3 ">
-                      <img src="images/aranzacja/garden-molo.jpeg" />
-                    </figure>
-                  </div>
                   <div className="tile is-child box">
                     <figure className="image is-4by3 ">
-                      <img src="images/aranzacja/skalniaki-kwiaty.jpeg" />
+                      <img src="images/szkolka/azalie_zolte.jpg" />
+                    </figure>
+                  </div>
+                  <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3 ">
+                      <img src="images/aranzacja/lawender.jpeg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3">
-                      <img src="images/aranzacja/garden-lawender.jpeg" />
+                      <img src="images/aranzacja/camelias.jpeg" />
                     </figure>
                   </div>
             </div>

@@ -15,9 +15,9 @@ img {
   color: #6D8923;
 }
 .Header-container{
-  background-image: url("../images/wisnia.jpeg");
+  background-image: url("../images/chortensje.jpeg");
   background-repeat: no-repeat;
-  background-position: 20% 50%;
+  /*background-position: 20% 50%;*/
 }
 .Contact-container{
   padding-top: 2em;
@@ -30,7 +30,10 @@ img {
   padding-top: 2em;
 }
 .HeaderBody-logo {
-  width: 40%;
+  width: 15rem;;
+}
+.logo-footer {
+  width: 15rem;;
 }
 .HeaderBody-title,
 .ClickMe {
@@ -48,6 +51,9 @@ img {
 }
 .p-padding-bottom {
   padding-bottom: 1em;
+}
+.p-margin-bottom {
+  margin-bottom: 1em;
 }
 .p-padding-top {
   padding-top: 1em;
@@ -133,12 +139,6 @@ i.fa.fa-thumbs-up {
   margin-bottom: 20px;
 }
 
-.logo {
-  height: 60px;
-}
-.logo-footer {
-  height: 100px;
-}
 .red {
   color: #FF6384;
   height: 80px;

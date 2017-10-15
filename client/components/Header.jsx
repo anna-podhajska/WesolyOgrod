@@ -11,7 +11,7 @@ import HeaderBody from './HeaderBody'
 
 const Header = ({isAuthenticated}) => (
 
-  <section className="hero is-primary is-fullheight Header-container">
+  <section className="hero is-dark is-fullheight Header-container">
     {/* LOGIN - UNCOMMENT WHEN READY TO USE */}
     {/* <div className="hero-head">
       <div className="nav Nav">
