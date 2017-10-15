@@ -25,7 +25,7 @@ class Szkolka extends React.Component {
         <div className="tile is-ancestor">
             <div className="tile is-parent">
 
-                <article className="tile is-child box has-text-justified">
+                <article className="tile is-child box has-text-justified onasjump" onClick={()=> jump(".onasjump")}>
                     <p className="title is-size-5">O nas</p>
                     <p className="content">Nasza Szkółka powstała w roku 1986 w Olszowej w województwie wielkopolskim.
                     Przez kolejne lata działalności rozrastała się dzięki inwestycjom w sprzęt, wprowadzeniu nowych roślin oraz poszerzeniu terenu uprawny. <strong>Mamy 30 lat doświadczenia w hodowli roślin</strong>.</p>
@@ -34,7 +34,7 @@ class Szkolka extends React.Component {
 
                     <p className="content">Nasza oferta jest skierowana zarówno do klientów indywidualnych jak i punktów sprzedaży roślin.</p>
                 </article>
-                <div className="tile is-child box">
+                <div className="tile is-child box roslformjump" onClick={()=> jump(".roslformjump")}>
                       <div className="">
                           <figure className="image p-padding-bottom">
                             <img src="images/szkolka/nursery-form.jpg" />
@@ -46,7 +46,7 @@ class Szkolka extends React.Component {
                             </p>
                       </div>
                 </div>
-                <div className="tile is-child box">
+                <div className="tile is-child box swierkijump" onClick={()=> jump(".swierkijump")}>
                       <div className="">
                           <figure className="image p-padding-bottom">
                             <img src="images/szkolka/nursery-swierki.jpeg" />
@@ -78,12 +78,17 @@ class Szkolka extends React.Component {
 
         <div className="tile is-ancestor">
             <div className="tile is-parent">
-                  <div className="tile is-child box">
+                  {/* <div className="tile is-child box">
                       <p className="subtitle"><strong>Byliny, skalniaki, różaneczniki</strong></p>
-                  </div>
+                  </div> */}
                   <div className="tile is-child box">
                     <figure className="image is-4by3">
                       <img src="images/szkolka/nursery-peonias.jpg" />
+                    </figure>
+                  </div>
+                  <div className="tile is-child box is-hidden-mobile">
+                    <figure className="image is-4by3">
+                      <img src="images/szkolka/nursery-skalniaki-doniczki.jpeg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
@@ -93,10 +98,10 @@ class Szkolka extends React.Component {
                   </div>
                   <div className="tile is-child box">
                     <figure className="image is-4by3">
-                      <img src="images/szkolka/nursery-skalniaki-doniczki.jpeg" />
+                      <img src="images/szkolka/klon-jesien.jpeg" />
                     </figure>
                   </div>
-                  <div className="tile is-child box is-hidden-mobile">
+                  <div className="tile is-child box">
                     <figure className="image is-4by3 ">
                       <img src="images/szkolka/kosodrzewina.jpg" />
                     </figure>

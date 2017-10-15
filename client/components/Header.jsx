@@ -66,19 +66,20 @@ const Header = ({isAuthenticated}) => (
     </div> */}
 
 
-    <div className="hero-head">
-      <div className="nav">
-        <div className=" Header-navbar">
-          <div className="nav-left">
-            <div className="nav-item" onClick={()=>jump(".Contact-container")}>
-              <span className="icon">
-                <i className="fa fa-map-marker is-medium"></i>
-              </span>
-              <p className="subtitle"> Kontakt </p>
+    <div className="hero-head p-padding-top">
+        <div className="Header-navbar container">
+          <div className="columns nav">
+            <div className="column" onClick={()=>jump(".Contact-container")}>
+                <span className="icon">
+                  <i className="fa fa-map-marker is-medium"></i>
+                </span>
+                <span className="">kontakt</span>
+            </div>
+            <div className="column is-2 is-offset-8" onClick={()=>jump(".onasjump")}>
+                <p className="">o nas</p>
             </div>
           </div>
         </div>
-      </div>
     </div>
 
 
