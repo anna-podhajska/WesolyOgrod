@@ -114,7 +114,7 @@ class Aranzacja extends React.Component {
                   </div>
                   <div className="tile is-child box is-hidden-mobile">
                     <figure className="image is-4by3 ">
-                      <img src="images/aranzacja/lawender.jpeg" />
+                      <img src="images/aranzacja/lawender.jpg" />
                     </figure>
                   </div>
                   <div className="tile is-child box is-hidden-mobile">

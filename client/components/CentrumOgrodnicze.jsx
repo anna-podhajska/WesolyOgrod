@@ -64,7 +64,7 @@ class CentrumOgrodnicze extends React.Component {
                     <article className="tile is-child box cebulejump" onClick={()=> jump(".cebulejump")}>
                         <p className="title is-size-5">Cebule i nasiona</p>
                         <p className="subtitle">cebulki kwiatowe, nasiona traw</p>
-                        <p className="content"> Oferujemy wybór cebulek zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, funkie, mieczyki, begonie, zawilce, hiacynty) a także tych oryginalnych i mniej znanych (szafirki, amarylisy, bodziszki, dalie cebule, czosnki, zimowity).</p>
+                        <p className="content"> Oferujemy wybór cebulek zarówno popularnych gatunków kwiatów (np. cebulki tulipanów, róże, krokusy, narcyzy, przebiśniegi, malwy, mieczyki, hiacynty, piwonie, irysy, funkie, mieczyki, begonie, zawilce, hiacynty), a także tych oryginalnych i mniej znanych (szafirki, amarylisy, bodziszki, dalie cebule, czosnki, zimowity).</p>
                         <p className="content"> W naszej ofercie znajduje się bogaty wybór nasion traw różnych gatunków. Pomożemy dobrać mieszankę trawnikową zależnie od nasłonecznienia, nawodnienia i uzytkowania trawnika. </p>
                         <div className="p-padding-top">
                           <figure className="image">
