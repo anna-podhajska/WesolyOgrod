@@ -2,7 +2,8 @@
 
 Project name: WESOLY OGROD
 
-You'll find us online http://wesolyogrod.herokuapp.com/#/
+- You'll find us online deployed on Heroku here http://wesolyogrod.herokuapp.com/#/
+- or here https://wesolyogrod.eu
 
 ## Install / Running
 
@@ -14,12 +15,12 @@ You'll find us online http://wesolyogrod.herokuapp.com/#/
 
 ### Description
 
-- Content creation 
+- Content creation
 - Graphical design
 - Full stack development
 
 ### Authors
-- Ania Podhajska 
+- Ania Podhajska
 
 ### App main features:
 
